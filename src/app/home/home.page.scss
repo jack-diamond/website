@@ -8,7 +8,7 @@ ion-col {
 
 .myinfo {
     padding-top: 20px;
-    line-height: 150%;
+    line-height: 175%;
     text-align: center;
 }
 
@@ -23,7 +23,7 @@ ion-col {
     text-align: center;
     line-height: 200%;
     ion-icon {
-        font-size: 24px;
+        font-size: 32px;
     }
 }
 
@@ -31,4 +31,8 @@ ion-col {
     text-align: center;
     padding-top: 80px;
     
+}
+
+a {
+    color: inherit;
 }
