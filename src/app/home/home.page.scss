@@ -18,6 +18,10 @@ ion-header, ion-content{
     text-align: center;
 }
 
+.projectsTab:hover{
+    cursor: pointer;
+}
+
 .experienceTab {
     flex-grow: 1;
     text-align: center;
