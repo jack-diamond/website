@@ -1,6 +1,5 @@
 import { Component } from '@angular/core';
-import { NavController } from '@ionic/angular';
-import { ProjectsPage } from '../projects/projects.page';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-home',
@@ -9,10 +8,12 @@ import { ProjectsPage } from '../projects/projects.page';
 })
 export class HomePage {
 
-  constructor(private navCtrl: NavController) {}
+  constructor(
+    private router: Router
+    ) {}
   
   goToProjects() {
-    this.navCtrl.navigateForward('/projects')
+    this.router.navigate(['/projects']);
   }
 
 }

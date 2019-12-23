@@ -1,0 +1,71 @@
+ion-header, ion-content{
+    --ion-background-color: #f5f3ef;
+}
+
+.tabsContainer {
+    display: flex;
+    flex-direction: row;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.homeTab {
+    flex-grow: 1;    
+    text-align: center;
+}
+
+.projectsTab {
+    flex-grow: 1;
+    text-align: center;
+    font-weight: 200 !important;
+}
+
+.experienceTab {
+    flex-grow: 1;
+    text-align: center;
+}
+
+.contentContainer {
+    display: flex;
+    flex-direction: row;
+}
+
+.infoItem {
+    flex: 30%;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.skillsItem {
+    flex: 70%;
+    padding-top: 80px;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.myinfo {
+    padding-top: 20px;
+    line-height: 175%;
+    text-align: center;
+}
+
+.profile {
+    border-radius: 50%;
+    width: 432px;
+    height: auto;
+}
+
+.links {
+    padding-top: 20px;
+    text-align: center;
+    line-height: 200%;
+    ion-icon {
+        font-size: 32px;
+    }
+}
+
+.picture {
+    text-align: center;
+    padding-top: 80px;
+}
+
+a {
+    color: inherit;
+}

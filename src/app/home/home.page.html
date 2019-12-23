@@ -1,43 +1,54 @@
-<!--<ion-header>
+<link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro&display=swap" rel="stylesheet">
+<ion-header>
   <ion-toolbar>
-    <ion-row>
-      <ion-col size="4" (click)="goToProjects()">
-        Projects
-      </ion-col>
-      <ion-col size="4">
-        Experience
-      </ion-col>
-      <ion-col size="4">
-        Contact
-      </ion-col>
-    </ion-row>
+    <div class="tabsContainer">
+        <span class="homeTab"><u>Home</u></span>
+        <span class="projectsTab" (click)="goToProjects()">Projects</span>
+        <span class="experienceTab">Experience</span>
+    </div>
   </ion-toolbar>
 </ion-header>
--->
 
-<ion-tabs>
-  <ion-tab-bar tabbar="top">
-    <ion-tab-button>
-      <ion-label>hello</ion-label>
-    </ion-tab-button>
-  </ion-tab-bar>
-</ion-tabs>
-
-<ion-content>
-  <div class="picture">
-    <img class="profile" src="assets/image/me.png">
-  </div>
-  <div class="myinfo">
-    Jack Diamond
-    <br>Software Engineering Intern
-    <br>University of Nevada, Reno
-  </div>
-  <div class="links">
-    <a href="https://www.linkedin.com/in/jack-diamond-8144b6179/" target="_blank">
-      <ion-icon name="logo-linkedin"></ion-icon>
-    </a>
-    <a href="https://github.com/jack-diamond/" target="_blank">
-    <br><ion-icon name="logo-github"></ion-icon>
-    </a>
+<ion-content >
+  <div class="contentContainer" >
+    <div class="infoItem">
+      <div class="picture">
+        <img class="profile" src="assets/image/me.png">
+      </div>
+      <div class="myinfo">
+        Jack Diamond
+        <br>Software Engineering Intern
+        <br>University of Nevada, Reno
+      </div>
+      <div class="links">
+        <a href="https://www.linkedin.com/in/jack-diamond-8144b6179/" target="_blank">
+          <ion-icon name="logo-linkedin"></ion-icon>
+        </a>
+        <a href="https://github.com/jack-diamond/" target="_blank">
+          <br><ion-icon name="logo-github"></ion-icon>
+        </a>
+      </div>
+    </div>
+    <div class="skillsItem">
+      <div>
+        <span><u>Languages</u></span>
+        <p>
+          JavaScript
+          TypeScript
+          Python
+          C++
+        </p>
+      </div>
+      <div>
+        <span><u>Technologies</u></span>
+        <p>
+          Angular
+          Node.js
+          HTML/CSS
+          Ionic Framework
+          MS SQL
+        </p>
+      </div>
+    </div>
   </div>
 </ion-content>

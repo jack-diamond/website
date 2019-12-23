@@ -1,9 +1,42 @@
-ion-header, ion-content {
+ion-header, ion-content{
     --ion-background-color: #f5f3ef;
 }
 
-ion-col {
+.tabsContainer {
+    display: flex;
+    flex-direction: row;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.homeTab {
+    flex-grow: 1;    
     text-align: center;
+}
+
+.projectsTab {
+    flex-grow: 1;
+    text-align: center;
+}
+
+.experienceTab {
+    flex-grow: 1;
+    text-align: center;
+}
+
+.contentContainer {
+    display: flex;
+    flex-direction: row;
+}
+
+.infoItem {
+    flex: 30%;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.skillsItem {
+    flex: 70%;
+    padding-top: 80px;
+    font-family: 'Source Sans Pro', sans-serif;
 }
 
 .myinfo {
@@ -14,7 +47,7 @@ ion-col {
 
 .profile {
     border-radius: 50%;
-    width: 30%;
+    width: 432px;
     height: auto;
 }
 
@@ -30,7 +63,6 @@ ion-col {
 .picture {
     text-align: center;
     padding-top: 80px;
-    
 }
 
 a {
