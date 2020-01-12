@@ -1,0 +1,57 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+ion-content {
+  width: 100%;
+}
+.container_1 {
+  width: 100%;
+  background-color: #5BA3EF;
+  display: flex;
+  flex: auto;
+  flex-direction: row;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+}
+
+.img_container {
+  padding: 30px 30px 30px 330px;
+  text-align: end;
+  flex-grow: 0;
+  flex-shrink: 0;
+}
+
+.img_container img {
+  width: 200px;
+  height: 200px;
+}
+
+.info {
+  text-align: start;
+  color: white;
+  padding: 0;
+  line-height: 1.5;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.name {
+  font-size: 48px;
+  line-height: 1.3;
+}
+
+.logos {
+  font-size: 32px;
+  line-height: 2.2;
+}
+
+.container_2 {
+  background-color: #F7F8FA;
+  text-align: center;
+}
+
+.title_2 {
+  font-size: 24px;
+  font-weight: 200;
+}
