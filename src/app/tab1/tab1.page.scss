@@ -48,10 +48,22 @@ ion-content {
 
 .container_2 {
   background-color: #F7F8FA;
-  text-align: center;
+  margin: 0 auto;
+  text-align: justify;
+  width: 35em;
 }
 
 .title_2 {
+  text-align: center;
+  background-color: #F7F8FA;
   font-size: 24px;
   font-weight: 200;
+  padding-top: 20px;
+}
+
+.continued {
+  background-color: #F7F8FA;
+  margin: 0 auto;
+  text-align: center;
+  width: 35em;
 }
